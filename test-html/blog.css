@@ -1,0 +1,36 @@
+#blog{
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+#blog h2, h4{
+    text-align: center;
+}
+
+#blog .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog figure{
+    margin: 25px;
+}
+
+#blog img{
+    width: 200px;
+    height: 200px;
+}
+
+@media (min-width:480px){
+    #blog{
+        margin-top: 50px;
+    }
+
+#blog img{
+    width: 300px;
+    height: 250px;
+}
+}
